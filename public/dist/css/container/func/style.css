@@ -1,0 +1,17 @@
+/* Error: "Type не може бути, як Size"
+ *    ,
+ * 98 |   @include button('secondary', 'secondary');
+ *    |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   src\container\func\style.scss 98:3  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: \"Type \43d \435  \43c \43e \436 \435  \431 \443 \442 \438 , \44f \43a  Size\"\a    \2577 \a 98 \2502    @include button('secondary', 'secondary');\d\a    \2502    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   src\\container\\func\\style.scss 98:3  root stylesheet";
+}
